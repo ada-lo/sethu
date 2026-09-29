@@ -1,0 +1,15 @@
+{
+  "name": "sethu-website",
+  "version": "1.0.0",
+  "description": "SETHU — Evaluate. Score. Match. Website with waitlist backend.",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  }
+}
